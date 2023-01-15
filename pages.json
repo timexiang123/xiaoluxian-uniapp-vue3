@@ -1,0 +1,84 @@
+{
+	"easycom": {
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [ 
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/classify/classify",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/study/study",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/profile/profile",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#303133",
+		"selectedColor": "#3e8bf8",
+		"backgroundColor": "#fff",
+		"fontSize": "12px",
+		"spacing": "6px",
+		"height":"70px",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"text":"首页",
+				"iconPath": "./static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_select.png"
+			},
+			{
+				"pagePath":"pages/classify/classify",
+				"text":"分类",
+				"iconPath": "./static/tabbar/classify.png",
+				"selectedIconPath": "static/tabbar/classify_select.png"
+			},
+			{
+				"pagePath":"pages/study/study",
+				"text":"学习",
+				"iconPath": "./static/tabbar/study.png",
+				"selectedIconPath": "static/tabbar/study_select.png"
+			},
+			{
+				"pagePath":"pages/profile/profile",
+				"text":"我的",
+				"iconPath": "./static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile_select.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小鹿线移动看课APP",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#fffff"
+	},
+	"uniIdRouter": {}
+}

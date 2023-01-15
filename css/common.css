@@ -1,0 +1,49 @@
+view {
+	line-height: 1;
+	font-size: 14px;
+	color: #303133;
+	vertical-align: middle;
+}
+
+img,
+image {
+	vertical-align: middle;
+}
+
+/* 去除scroll-view的默认滚动条 */
+scroll-view ::-webkit-scrollbar {
+
+	display: none !important;
+
+	width: 0 !important;
+
+	height: 0 !important;
+
+	-webkit-appearance: none;
+
+	background: transparent;
+
+}
+
+.nowrap {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+scroll-view ::-webkit-scrollbar {
+	display: none !important;
+	width: 0 !important;
+	height: 0 !important;
+	-webkit-appearance: none;
+	background: transparent;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+view,
+text {
+	box-sizing: border-box;
+}
