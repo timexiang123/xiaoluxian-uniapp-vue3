@@ -48,7 +48,7 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .home-banner {
-	margin-top: 20rpx;
+	margin-top: 30rpx;
 	position: relative;
 	:deep(.u-swiper__indicator ){
 		position: absolute;

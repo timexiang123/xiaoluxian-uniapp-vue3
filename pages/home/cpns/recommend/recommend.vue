@@ -3,7 +3,6 @@ import Banner from './cpns/banner/banner.vue'
 import MostNew from './cpns/most-new/most-new.vue'
 import MostRecommend from './cpns/most-recommend/most-recommend.vue'
 import MostHeat from './cpns/most-heat/most-heat.vue'
-import {ref} from 'vue'
 </script>
 <template>
 	<view class="recommend-container">

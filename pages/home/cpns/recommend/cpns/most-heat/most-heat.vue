@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref ,provide} from 'vue'
+import { onMounted, ref} from 'vue'
 import { getMostHeatData } from '@/service/api/home.js'
 const page = ref(0)
 const hasNextPage = ref(true)
@@ -23,11 +23,6 @@ const getCoursesData = () => {
 				}
 			})
 			.catch(err => console.log(err))
-	} else {
-		uni.showToast({
-			title: '没有更多了',
-			icon: 'none'
-		})
 	}
 }
 // 点击去课程详情页
