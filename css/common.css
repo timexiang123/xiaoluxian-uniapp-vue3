@@ -43,7 +43,6 @@ scroll-view ::-webkit-scrollbar {
 	display: none;
 }
 
-view,
-text {
+*,*::before,*::after {
 	box-sizing: border-box;
 }
