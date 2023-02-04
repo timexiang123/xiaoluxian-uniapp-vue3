@@ -62,6 +62,14 @@
             }
             
         }
+        ,{
+            "path" : "pages/classification-detail/classification-detail",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
     ],
 	"tabBar": {
 		"color": "#303133",
