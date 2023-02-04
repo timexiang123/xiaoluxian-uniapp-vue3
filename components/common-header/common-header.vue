@@ -1,5 +1,9 @@
 <script setup>
-	
+	import {navigateTo} from '@/utils/utils.js'
+	// 去关于页面
+	const toAboutPage = ()=>{
+		navigateTo('/pages/about/about')
+	}
 </script>
 <template>
 	<view class="common-header">
@@ -13,7 +17,7 @@
 					<u-icon name="scan" color="#000" size="44rpx"></u-icon>
 				</view>
 			</view>
-			<view class="header-right">
+			<view class="header-right" @click="toAboutPage">
 				<image src="/static/header-message.png" alt="信息" />
 			</view>
 		</view>

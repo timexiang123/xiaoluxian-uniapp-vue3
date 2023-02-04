@@ -38,7 +38,31 @@
 			}
 
 		}
-	],
+	    ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+              "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/sla",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/pri",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+    ],
 	"tabBar": {
 		"color": "#303133",
 		"selectedColor": "#3e8bf8",

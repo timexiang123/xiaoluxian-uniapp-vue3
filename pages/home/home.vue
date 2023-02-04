@@ -17,7 +17,7 @@ const tabs = ref([
 		name:'实战课程'
 	}
 ])
-const currentTabIndex = ref(1)
+const currentTabIndex = ref(0)
 const scrollViewH = ref(0)
 // 获取scrollView的高度
 const getScrollViewH = ()=>{
